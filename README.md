@@ -29,3 +29,4 @@
 | nextLong()   | Reads an integer of the long type.            |
 | nextFloat()  | Reads a number of the float type.             |
 | nextDouble() | Reads a number of the double type.            |
+

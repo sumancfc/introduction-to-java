@@ -19,11 +19,19 @@ public class Example {
         // System.out.println("The day in 100 days will be: " + dayInHundredDays);
 
         // increment and decrement
-
+/*
         int a = 6;
         int b = ++a;
         System.out.println(a);
+        System.out.println(b);*/
+
+        // type casting
+        int a = 257;
+        byte b = (byte) a;
         System.out.println(b);
 
+        double amount = 5;
+        System.out.println(amount / 2);
+        System.out.println(5 / 2);
     }
 }
