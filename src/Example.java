@@ -17,5 +17,13 @@ public class Example {
         // int dayInHundredDays = (dayInNumber + 100) % 7;
 
         // System.out.println("The day in 100 days will be: " + dayInHundredDays);
+
+        // increment and decrement
+
+        int a = 6;
+        int b = ++a;
+        System.out.println(a);
+        System.out.println(b);
+
     }
 }
