@@ -13,8 +13,8 @@ public class VolumeOfCylinder {
 
         area = radius * radius * PI;
         volume = length * area;
-        System.out.println("The area of the cylinder is " + area);
-        System.out.println("The volume of the cylinder is " + volume);
+        System.out.printf("The area of the cylinder is %4.2f\n", area);
+        System.out.printf("The volume of the cylinder is %4.2f\n", volume);
 
     }
 }

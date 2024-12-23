@@ -105,3 +105,12 @@
 | **`lastIndexOf(s)`**                     | Returns the index of the last occurrence of string `s` in this string. Returns `-1` if not matched.                    |
 | **`lastIndexOf(s, fromIndex)`**          | Returns the index of the last occurrence of string `s` before `fromIndex`. Returns `-1` if not matched.                |
 
+### Frequently Used Format Specifiers
+| Format Specifier | Description             | Example Code                               | Example Output            |
+|------------------|-------------------------|--------------------------------------------|---------------------------|
+| **`%b`**         | A boolean value         | `System.out.printf("%b", true);`           | `true`                    |
+| **`%c`**         | A character             | `System.out.printf("%c", 'a');`            | `a`                       |
+| **`%d`**         | A decimal integer       | `System.out.printf("%d", 200);`            | `200`                     |
+| **`%f`**         | A floating-point number | `System.out.printf("%f", 45.46);`          | `45.460000`               |
+| **`%e`**         | Scientific notation     | `System.out.printf("%e", 45.46);`          | `4.546000e+01`            |
+| **`%s`**         | A string                | `System.out.printf("%s", "Java is cool");` | `Java is cool`            |
